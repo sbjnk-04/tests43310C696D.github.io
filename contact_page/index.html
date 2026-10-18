@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Sejan Dhakal">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+   <a class="back_button" href="../index.html">&larr; Back</a>
+   <header class="site_header">
+        <button type="button" id="back" class="back_button" hidden></button>
+        <h1>The Orchestra</h1>
+        <p id="prompt" tabindex="-1" aria-live="polite">Loading...</p>
+        <nav class="site_nav" aria-label="Main">
+            <a href="../login_page/index.html">Login</a>
+            <a href="../index.html">Home</a>
+            <a href="../choices/index.html">Choices</a>
+            <a href="../extra_info/index.html">Extra Info</a>
+            <a href="../contact_page/index.html"  aria-current="page">Contact Us</a>
+        </nav>
+    </header>
+    <main class="contact">
+        <form class="contact_form" action="#" method="get">
+            <h2>Contact Us</h2>
+            <p class="form_intro">Please tell us how the site helped you and how we can make it better!</p>
+
+            <div class="form_field">
+                <label for="name">Name (optional)</label>
+                <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name">
+            </div>
+
+            <div class="form_field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+            </div>
+
+            <fieldset class="form_field">
+                <legend>Did the site help you learn about music theory?</legend>
+                <label class="choice"><input type="radio" name="helped" value="yes" required> Yes!</label>
+                <label class="choice"><input type="radio" name="helped" value="some"> Somewhat</label>
+                <label class="choice"><input type="radio" name="helped" value="no"> No...</label>
+            </fieldset>
+
+            <div class="form_field">
+                <label for="experience">Describe your experience!</label>
+                <textarea id="experience" name="experience" rows="4" placeholder="What did you learn? What did you enjoy?"></textarea>
+            </div>
+
+            <div class="form_field">
+                <label for="improve">How could we improve the site?</label>
+                <textarea id="improve" name="improve" rows="4" placeholder="Suggestions, missing instruments, confusing parts..."></textarea>
+            </div>
+
+            <div class="form_button">
+                <input type="submit" value="Send Feedback">
+            </div>
+        </form>
+    </main>
+    <footer>
+        Copyright Sejan D., 2026
+    </footer>    
+</body>
+</html>
