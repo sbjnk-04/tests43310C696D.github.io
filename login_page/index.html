@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Sejan Dhakal">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+   <a class="back_button" href="../index.html">&larr; Back</a>
+   <header class="site_header">
+        <button type="button" id="back" class="back_button" hidden></button>
+        <h1>The Orchestra</h1>
+        <p id="prompt" tabindex="-1" aria-live="polite">Loading...</p>
+        <nav class="site_nav" aria-label="Main">
+            <a href="../login_page/index.html" aria-current="page">Login</a>
+            <a href="../index.html">Home</a>
+            <a href="../choices/index.html">Choices</a>
+            <a href="../extra_info/index.html">Extra Info</a>
+            <a href="../contact_page/index.html">Contact Us</a>
+        </nav>
+    </header>
+    <main class="login">
+         <form class="login_form" action="POST" method="get">
+            <div class="login_box">
+               <label for="username">Username:</label>
+               <input type="text" name="username" id="username" placeholder="e.g. johndoe" required>
+            </div>
+            <div class="login_box">
+               <label for="password">Password:</label>
+               <input type="password" name="password" id="password" placeholder="Enter your password" required>
+            </div>
+
+            <div class="login_button">
+               <input type="submit" value="Login">
+            </div>
+         </form>
+      </main>
+    <footer>
+        Copyright Sejan D., 2026
+    </footer>    
+</body>
+</html>
