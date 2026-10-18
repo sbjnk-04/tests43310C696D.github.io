@@ -1,0 +1,1407 @@
+{
+  "families": [
+    {
+      "id": "strings",
+      "name": "Strings",
+      "instruments": [
+        {
+          "id": "violin",
+          "name": "Violin",
+          "whatTitle": "What is a violin?",
+          "seatTitle": "Where is the violinist seated in an orchestra?",
+          "image": {
+            "src": "violin1.png",
+            "alt": "An image of a violin.",
+            "caption": "A violin."
+          },
+          "intro": "The violin is a bowed stringed musical instrument and the smallest, highest-pitched member of the violin family, which also includes the viola, cello, and double bass. It typically has four strings tuned in perfect fifths (G–D–A–E) and is played by drawing a bow across the strings or by plucking them with the fingers.",
+          "range": {
+            "text": "The complete standard violin playing range covering all notes accessible through normal fingering in all positions extends from G3 (the lowest open string) to approximately E7, roughly four and a half octaves in total.",
+            "image": {
+              "src": "violin_range.png",
+              "alt": "The musical range of a violin.",
+              "caption": "The range of a violin (G3 to E7)."
+            }
+          },
+          "clef": {
+            "text": "The violin range on staff is written entirely in the treble clef. The violin does not use the bass clef under any normal circumstances, as even its lowest open string (G3) sits comfortably within the lower portion of the treble clef staff.",
+            "image": {
+              "src": "treble_clef.webp",
+              "alt": "The staff notation of a violin (Treble Clef).",
+              "caption": "Treble Clef."
+            }
+          },
+          "seating": {
+            "text": "The violinist section of an orchestra is further divided into two parts: first violins and second violins. First violins are seated to the conductor's left in semicircular arrangement. Second violins are similar in size to the first violin section, and are seated to the left of the first violinists.",
+            "image": {
+              "src": "violin_seat.png",
+              "alt": "An image of the violin seating in an orchestra.",
+              "caption": "Seating of the violin in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Antonio Vivaldi",
+              "title": "The Four Seasons",
+              "cover": "violin_song1.jpg",
+              "url": "https://open.spotify.com/search/The%20Four%20Seasons%20Antonio%20Vivaldi",
+              "alt": "Cover for Antonio Vivaldi, The Four Seasons."
+            },
+            {
+              "composer": "Pyotr Ilyich Tchaikovsky",
+              "title": "Violin Concerto in D major",
+              "cover": "violin_song2.jpg",
+              "url": "https://open.spotify.com/search/Violin%20Concerto%20in%20D%20major%20Pyotr%20Ilyich%20Tchaikovsky",
+              "alt": "Cover for Pyotr Ilyich Tchaikovsky, Violin Concerto in D major."
+            },
+            {
+              "composer": "Johann Sebastian Bach",
+              "title": "Partita No. 2, Chaconne",
+              "cover": "violin_song3.jpg",
+              "url": "https://open.spotify.com/search/Partita%20No.%202%2C%20Chaconne%20Johann%20Sebastian%20Bach",
+              "alt": "Cover for Johann Sebastian Bach, Partita No. 2, Chaconne."
+            },
+            {
+              "composer": "Niccolò Paganini",
+              "title": "Caprice No. 24",
+              "cover": "violin_song4.jpg",
+              "url": "https://open.spotify.com/search/Caprice%20No.%2024%20Niccol%C3%B2%20Paganini",
+              "alt": "Cover for Niccolò Paganini, Caprice No. 24."
+            }
+          ],
+          "references": [
+            {
+              "source": "Brittanica",
+              "title": "Violin",
+              "url": "https://www.britannica.com/art/violin"
+            },
+            {
+              "source": "B Musician",
+              "title": "What is the Violin range?: The Standard Violin Range: From G3 to E7",
+              "url": "https://bmusician.com/blog/violin-range-complete-guide/"
+            },
+            {
+              "source": "B Musician",
+              "title": "What is the Violin range?: The Violin Range on the Staff",
+              "url": "https://bmusician.com/blog/violin-range-complete-guide/"
+            },
+            {
+              "source": "The Violin Channel",
+              "title": "What Are The Sections Of The Orchestra? A Guide",
+              "url": "https://theviolinchannel.com/what-are-the-sections-of-the-orchestra/"
+            }
+          ]
+        },
+        {
+          "id": "cello",
+          "name": "Cello",
+          "whatTitle": "What is a cello?",
+          "seatTitle": "Where is the cellist seated in an orchestra?",
+          "image": {
+            "src": "cello1.png",
+            "alt": "An image of a cello.",
+            "caption": "A cello."
+          },
+          "intro": "The cello is bass musical instrument of the violin group, with four strings, pitched C–G–D–A upward from two octaves below middle C. The cello has a large, hollow wooden body with a rounded, waisted shape similar to that of the violin but with proportionally deeper ribs and a shorter neck. Measuring about 27.5 inches (70 cm) in length (47 inches [119 cm] with the neck), it is larger than the viola but smaller than the double bass.",
+          "range": {
+            "text": "The range of the cello is C2 to A6. It is possible to play higher, but you should use careful planning and thought as to how the player is going to get there. For example, you can use scales, arpeggios, or the performer can listen to other instruments in that register, which can be really, really helpful.",
+            "image": {
+              "src": "cello_range.png",
+              "alt": "The musical range of a cello.",
+              "caption": "The range of a cello on a keyboard (C2 to A6)."
+            }
+          },
+          "clef": {
+            "text": "Primarily, the cello’s music is written in the bass clef. It’s usually written in music an octave below the music line, so it emits a powerful, double bass.",
+            "image": {
+              "src": "bass_clef.png",
+              "alt": "The staff notation of a Cello (Bass Clef).",
+              "caption": "Bass Clef."
+            }
+          },
+          "seating": {
+            "text": "The cello is seated on the right of the conductor, right next to the viola and in front of the double bass.",
+            "image": {
+              "src": "cello_seat.png",
+              "alt": "An image of cellist seating in an orchestra.",
+              "caption": "Seating of the cellist in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Apocalyptica",
+              "title": "I Don't Care",
+              "cover": "apolyptica.jpg",
+              "url": "https://open.spotify.com/track/1WxF4gMsFXnKCyh48CW2RI?si=341ff97e33ac4bfe",
+              "alt": "Album cover for Apocalyptica's I Don't Care."
+            },
+            {
+              "composer": "The Beatles",
+              "title": "Eleanor Rigby",
+              "cover": "eleanor.jpg",
+              "url": "https://open.spotify.com/track/5GjPQ0eI7AgmOnADn1EO6Q?si=77ad3687714b4cd8",
+              "alt": "Album cover for The Beatles' Eleanor Rigby."
+            },
+            {
+              "composer": "Smashing Pumpkins",
+              "title": "Disarm",
+              "cover": "disarm.jpg",
+              "url": "https://open.spotify.com/track/2lXHg7BtTNoP39AezyCSfL?si=7cb1608c7d664b72",
+              "alt": "Album cover for The Smashing Pumpkin's Disarm."
+            },
+            {
+              "composer": "Electric Light Orchestra",
+              "title": "10538 Overture",
+              "cover": "10538.jpg",
+              "url": "https://open.spotify.com/track/5hLTUkTuiGT7Xf3Hpn36h2?si=890e5769b798402e",
+              "alt": "Album cover for Electric Light Orchestra's 10538 Overture."
+            }
+          ],
+          "references": [
+            {
+              "source": "Brittanica",
+              "title": "Cello",
+              "url": "https://www.britannica.com/art/cello"
+            },
+            {
+              "source": "Matthew Arrellin",
+              "title": "Cello Range",
+              "url": "https://www.mathew-arrellin.com/blog/cello-range"
+            },
+            {
+              "source": "music to your home",
+              "title": "What Clef is Cello?",
+              "url": "https://www.musictoyourhome.com/blog/what-clef-is-cello/"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        },
+        {
+          "id": "harp",
+          "name": "Harp",
+          "whatTitle": "What is a harp?",
+          "seatTitle": "Where is the harp seated in an orchestra?",
+          "image": {
+            "src": "harp1.png",
+            "alt": "An image of a harp.",
+            "caption": "A harp."
+          },
+          "intro": "The harp is a stringed instrument with strings stretched across an open triangular frame. The player plucks the strings with the fingers, and seven foot pedals on a concert harp change the pitch of each note by a half step. Its sound is shimmering and often associated with glissandos, fast sweeps across the strings.",
+          "range": {
+            "text": "A concert grand harp has 47 strings and spans about six and a half octaves, from C♭1 up to G♭7, nearly the width of a full piano keyboard.",
+            "image": {
+              "src": "harp_range.png",
+              "alt": "The musical range of a harp.",
+              "caption": "The approximate range of a concert harp (C♭1 to G♭7)."
+            }
+          },
+          "clef": {
+            "text": "Harp music is written on a grand staff, which joins the treble and bass clefs together, as piano music is. This lets the harpist's two hands cover both high and low notes.",
+            "image": {
+              "src": "grand_staff.png",
+              "alt": "The staff notation of a harp (Grand Staff).",
+              "caption": "Grand Staff."
+            }
+          },
+          "seating": {
+            "text": "The strings sit at the front of the orchestra, closest to the audience and surrounding the conductor. The harp usually sits on the conductor's left, toward the back of the string section, close to the woodwinds.",
+            "image": {
+              "src": "harp_seat.png",
+              "alt": "An image of the harp seating in an orchestra.",
+              "caption": "Seating of the harp in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Claude Debussy",
+              "title": "Danses sacrée et profane",
+              "cover": "harp_song1.jpg",
+              "url": "https://open.spotify.com/search/Danses%20sacr%C3%A9e%20et%20profane%20Claude%20Debussy",
+              "alt": "Cover for Claude Debussy, Danses sacrée et profane."
+            },
+            {
+              "composer": "Pyotr Ilyich Tchaikovsky",
+              "title": "Waltz of the Flowers",
+              "cover": "harp_song2.jpg",
+              "url": "https://open.spotify.com/search/Waltz%20of%20the%20Flowers%20Pyotr%20Ilyich%20Tchaikovsky",
+              "alt": "Cover for Pyotr Ilyich Tchaikovsky, Waltz of the Flowers."
+            },
+            {
+              "composer": "Maurice Ravel",
+              "title": "Introduction and Allegro",
+              "cover": "harp_song3.jpg",
+              "url": "https://open.spotify.com/search/Introduction%20and%20Allegro%20Maurice%20Ravel",
+              "alt": "Cover for Maurice Ravel, Introduction and Allegro."
+            },
+            {
+              "composer": "George Frideric Handel",
+              "title": "Harp Concerto in B-flat major",
+              "cover": "harp_song4.jpg",
+              "url": "https://open.spotify.com/search/Harp%20Concerto%20in%20B-flat%20major%20George%20Frideric%20Handel",
+              "alt": "Cover for George Frideric Handel, Harp Concerto in B-flat major."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Harp",
+              "url": "https://en.wikipedia.org/wiki/Harp"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Harp",
+              "url": "https://en.wikipedia.org/wiki/Harp"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Harp",
+              "url": "https://en.wikipedia.org/wiki/Harp"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        },
+        {
+          "id": "guitar",
+          "name": "Guitar",
+          "whatTitle": "What is a guitar?",
+          "seatTitle": "Where is the guitar seated in an orchestra?",
+          "image": {
+            "src": "guitar1.png",
+            "alt": "An image of a guitar.",
+            "caption": "A guitar."
+          },
+          "intro": "The guitar is a plucked stringed instrument with a hollow wooden body and a long fretted neck. The classical guitar has six nylon strings tuned E–A–D–G–B–E, and the player plucks them with the fingers of the right hand while pressing the frets with the left. Although the guitar is not a standard part of the orchestra, composers sometimes feature it in concertos.",
+          "range": {
+            "text": "A classical guitar with 19 or more frets spans roughly E2 to about B5, a little over three and a half octaves.",
+            "image": {
+              "src": "guitar_range.png",
+              "alt": "The musical range of a guitar.",
+              "caption": "The approximate range of a classical guitar (E2 to B5)."
+            }
+          },
+          "clef": {
+            "text": "Guitar music is written in the treble clef, one octave higher than it sounds, so that the notes stay on the staff.",
+            "image": {
+              "src": "treble_clef.webp",
+              "alt": "The staff notation of a guitar (Treble Clef).",
+              "caption": "Treble Clef."
+            }
+          },
+          "seating": {
+            "text": "The guitar is not a standard member of the orchestra. When it plays as a soloist in a concerto, the guitarist sits at the front of the stage beside the conductor.",
+            "image": {
+              "src": "guitar_seat.png",
+              "alt": "An image of the guitar seating in an orchestra.",
+              "caption": "Seating of the guitar in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Joaquín Rodrigo",
+              "title": "Concierto de Aranjuez",
+              "cover": "guitar_song1.jpg",
+              "url": "https://open.spotify.com/search/Concierto%20de%20Aranjuez%20Joaqu%C3%ADn%20Rodrigo",
+              "alt": "Cover for Joaquín Rodrigo, Concierto de Aranjuez."
+            },
+            {
+              "composer": "Francisco Tárrega",
+              "title": "Recuerdos de la Alhambra",
+              "cover": "guitar_song2.jpg",
+              "url": "https://open.spotify.com/search/Recuerdos%20de%20la%20Alhambra%20Francisco%20T%C3%A1rrega",
+              "alt": "Cover for Francisco Tárrega, Recuerdos de la Alhambra."
+            },
+            {
+              "composer": "Isaac Albéniz",
+              "title": "Asturias",
+              "cover": "guitar_song3.jpg",
+              "url": "https://open.spotify.com/search/Asturias%20Isaac%20Alb%C3%A9niz",
+              "alt": "Cover for Isaac Albéniz, Asturias."
+            },
+            {
+              "composer": "Heitor Villa-Lobos",
+              "title": "Guitar Concerto",
+              "cover": "guitar_song4.jpg",
+              "url": "https://open.spotify.com/search/Guitar%20Concerto%20Heitor%20Villa-Lobos",
+              "alt": "Cover for Heitor Villa-Lobos, Guitar Concerto."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Guitar",
+              "url": "https://en.wikipedia.org/wiki/Classical_guitar"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Guitar",
+              "url": "https://en.wikipedia.org/wiki/Classical_guitar"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Guitar",
+              "url": "https://en.wikipedia.org/wiki/Classical_guitar"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "woodwinds",
+      "name": "Woodwinds",
+      "instruments": [
+        {
+          "id": "flute",
+          "name": "Flute",
+          "whatTitle": "What is a flute?",
+          "seatTitle": "Where is the flute seated in an orchestra?",
+          "image": {
+            "src": "flute1.png",
+            "alt": "An image of a flute.",
+            "caption": "A flute."
+          },
+          "intro": "The flute is a woodwind instrument that makes sound without a reed. The player blows a focused stream of air across an opening in the tube, much like blowing across the top of a bottle. Modern orchestral flutes are metal and held out to the player's right side.",
+          "range": {
+            "text": "A standard flute spans about three octaves, from C4 (middle C) up to roughly C7. Players with a B-foot joint can reach one note lower, to B3.",
+            "image": {
+              "src": "flute_range.png",
+              "alt": "The musical range of a flute.",
+              "caption": "The range of a flute on a keyboard (C4 to C7)."
+            }
+          },
+          "clef": {
+            "text": "Flute music is written in the treble clef. The notes sit comfortably on and above the staff, and the highest notes use many ledger lines.",
+            "image": {
+              "src": "treble_clef.webp",
+              "alt": "The staff notation of a flute (Treble Clef).",
+              "caption": "Treble Clef."
+            }
+          },
+          "seating": {
+            "text": "Woodwinds sit in the middle of the orchestra, behind the strings and in front of the brass and percussion. From the conductor's podium, the flutes are on the left of the woodwind rows, followed by the oboes, clarinets and bassoons toward the right. Flutists usually sit at the front left of the woodwind row.",
+            "image": {
+              "src": "flute_seat.png",
+              "alt": "An image of the flute seating in an orchestra.",
+              "caption": "Seating of the flute in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Claude Debussy",
+              "title": "Prelude to the Afternoon of a Faun",
+              "cover": "flute_song1.jpg",
+              "url": "https://open.spotify.com/search/Prelude%20to%20the%20Afternoon%20of%20a%20Faun%20Claude%20Debussy",
+              "alt": "Cover for Claude Debussy, Prelude to the Afternoon of a Faun."
+            },
+            {
+              "composer": "Claude Debussy",
+              "title": "Syrinx",
+              "cover": "flute_song2.jpg",
+              "url": "https://open.spotify.com/search/Syrinx%20Claude%20Debussy",
+              "alt": "Cover for Claude Debussy, Syrinx."
+            },
+            {
+              "composer": "Jethro Tull",
+              "title": "Bourée",
+              "cover": "flute_song3.jpg",
+              "url": "https://open.spotify.com/search/Bour%C3%A9e%20Jethro%20Tull",
+              "alt": "Cover for Jethro Tull, Bourée."
+            },
+            {
+              "composer": "Georges Bizet",
+              "title": "Entr'acte from Carmen",
+              "cover": "flute_song4.jpg",
+              "url": "https://open.spotify.com/search/Entr%27acte%20from%20Carmen%20Georges%20Bizet",
+              "alt": "Cover for Georges Bizet, Entr'acte from Carmen."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Flute",
+              "url": "https://en.wikipedia.org/wiki/Flute"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Flute",
+              "url": "https://en.wikipedia.org/wiki/Flute"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Flute",
+              "url": "https://en.wikipedia.org/wiki/Flute"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        },
+        {
+          "id": "clarinet",
+          "name": "Clarinet",
+          "whatTitle": "What is a clarinet?",
+          "seatTitle": "Where is the clarinet seated in an orchestra?",
+          "image": {
+            "src": "clarinet1.png",
+            "alt": "An image of a clarinet.",
+            "caption": "A clarinet."
+          },
+          "intro": "The clarinet is a woodwind instrument with a cylindrical tube and a single reed attached to the mouthpiece. The player vibrates the reed with a stream of air, and keys and finger holes change the pitch. Its tone is warm and dark in the low register and bright in the high register.",
+          "range": {
+            "text": "The common B♭ clarinet has a written range from E3 to about C7. It is a transposing instrument, so the pitch you hear is a whole step lower than the note on the page.",
+            "image": {
+              "src": "clarinet_range.png",
+              "alt": "The musical range of a clarinet.",
+              "caption": "The written range of a clarinet (E3 to C7)."
+            }
+          },
+          "clef": {
+            "text": "Clarinet parts are written in the treble clef. Because it is a transposing instrument, the written notes are adjusted so the player can use the same fingerings across the clarinet family.",
+            "image": {
+              "src": "treble_clef.webp",
+              "alt": "The staff notation of a clarinet (Treble Clef).",
+              "caption": "Treble Clef."
+            }
+          },
+          "seating": {
+            "text": "Woodwinds sit in the middle of the orchestra, behind the strings and in front of the brass and percussion. From the conductor's podium, the flutes are on the left of the woodwind rows, followed by the oboes, clarinets and bassoons toward the right. Clarinets sit just to the right of the oboes, near the center of the woodwind section.",
+            "image": {
+              "src": "clarinet_seat.png",
+              "alt": "An image of the clarinet seating in an orchestra.",
+              "caption": "Seating of the clarinet in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Wolfgang Amadeus Mozart",
+              "title": "Clarinet Concerto in A major",
+              "cover": "clarinet_song1.jpg",
+              "url": "https://open.spotify.com/search/Clarinet%20Concerto%20in%20A%20major%20Wolfgang%20Amadeus%20Mozart",
+              "alt": "Cover for Wolfgang Amadeus Mozart, Clarinet Concerto in A major."
+            },
+            {
+              "composer": "George Gershwin",
+              "title": "Rhapsody in Blue",
+              "cover": "clarinet_song2.jpg",
+              "url": "https://open.spotify.com/search/Rhapsody%20in%20Blue%20George%20Gershwin",
+              "alt": "Cover for George Gershwin, Rhapsody in Blue."
+            },
+            {
+              "composer": "Benny Goodman",
+              "title": "Sing, Sing, Sing",
+              "cover": "clarinet_song3.jpg",
+              "url": "https://open.spotify.com/search/Sing%2C%20Sing%2C%20Sing%20Benny%20Goodman",
+              "alt": "Cover for Benny Goodman, Sing, Sing, Sing."
+            },
+            {
+              "composer": "Artie Shaw",
+              "title": "Begin the Beguine",
+              "cover": "clarinet_song4.jpg",
+              "url": "https://open.spotify.com/search/Begin%20the%20Beguine%20Artie%20Shaw",
+              "alt": "Cover for Artie Shaw, Begin the Beguine."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Clarinet",
+              "url": "https://en.wikipedia.org/wiki/Clarinet"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Clarinet",
+              "url": "https://en.wikipedia.org/wiki/Clarinet"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Clarinet",
+              "url": "https://en.wikipedia.org/wiki/Clarinet"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        },
+        {
+          "id": "oboe",
+          "name": "Oboe",
+          "whatTitle": "What is an oboe?",
+          "seatTitle": "Where is the oboe seated in an orchestra?",
+          "image": {
+            "src": "oboe1.png",
+            "alt": "An image of an oboe.",
+            "caption": "An oboe."
+          },
+          "intro": "The oboe is a woodwind instrument that uses a double reed, two thin blades of cane tied together. The player blows through the narrow gap between the blades, which makes a bright, penetrating tone. Because its pitch is steady and clear, the oboe plays the tuning note for the whole orchestra.",
+          "range": {
+            "text": "The oboe's standard range runs from B♭3 up to about A6, a little over two and a half octaves.",
+            "image": {
+              "src": "oboe_range.png",
+              "alt": "The musical range of an oboe.",
+              "caption": "The range of an oboe on a keyboard (B♭3 to A6)."
+            }
+          },
+          "clef": {
+            "text": "Oboe music is written in the treble clef. The instrument is non-transposing, so the notes on the page are the notes you hear.",
+            "image": {
+              "src": "treble_clef.webp",
+              "alt": "The staff notation of an oboe (Treble Clef).",
+              "caption": "Treble Clef."
+            }
+          },
+          "seating": {
+            "text": "Woodwinds sit in the middle of the orchestra, behind the strings and in front of the brass and percussion. From the conductor's podium, the flutes are on the left of the woodwind rows, followed by the oboes, clarinets and bassoons toward the right. Oboes sit next to the flutes, in the middle of the woodwind section.",
+            "image": {
+              "src": "oboe_seat.png",
+              "alt": "An image of the oboe seating in an orchestra.",
+              "caption": "Seating of the oboe in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Wolfgang Amadeus Mozart",
+              "title": "Oboe Concerto in C major",
+              "cover": "oboe_song1.jpg",
+              "url": "https://open.spotify.com/search/Oboe%20Concerto%20in%20C%20major%20Wolfgang%20Amadeus%20Mozart",
+              "alt": "Cover for Wolfgang Amadeus Mozart, Oboe Concerto in C major."
+            },
+            {
+              "composer": "Ennio Morricone",
+              "title": "Gabriel's Oboe",
+              "cover": "oboe_song2.jpg",
+              "url": "https://open.spotify.com/search/Gabriel%27s%20Oboe%20Ennio%20Morricone",
+              "alt": "Cover for Ennio Morricone, Gabriel's Oboe."
+            },
+            {
+              "composer": "Pyotr Ilyich Tchaikovsky",
+              "title": "Swan Lake, Scene",
+              "cover": "oboe_song3.jpg",
+              "url": "https://open.spotify.com/search/Swan%20Lake%2C%20Scene%20Pyotr%20Ilyich%20Tchaikovsky",
+              "alt": "Cover for Pyotr Ilyich Tchaikovsky, Swan Lake, Scene."
+            },
+            {
+              "composer": "Alessandro Marcello",
+              "title": "Oboe Concerto in D minor",
+              "cover": "oboe_song4.jpg",
+              "url": "https://open.spotify.com/search/Oboe%20Concerto%20in%20D%20minor%20Alessandro%20Marcello",
+              "alt": "Cover for Alessandro Marcello, Oboe Concerto in D minor."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Oboe",
+              "url": "https://en.wikipedia.org/wiki/Oboe"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Oboe",
+              "url": "https://en.wikipedia.org/wiki/Oboe"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Oboe",
+              "url": "https://en.wikipedia.org/wiki/Oboe"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        },
+        {
+          "id": "saxophone",
+          "name": "Saxophone",
+          "whatTitle": "What is a saxophone?",
+          "seatTitle": "Where is the saxophone seated in an orchestra?",
+          "image": {
+            "src": "saxophone1.png",
+            "alt": "An image of a saxophone.",
+            "caption": "A saxophone."
+          },
+          "intro": "The saxophone is a woodwind instrument with a single reed and a conical metal body. It was invented by Adolphe Sax in the 1840s. Although it is made of brass, it is classed as a woodwind because the reed makes the sound.",
+          "range": {
+            "text": "The alto saxophone, the most common size, has a written range from B♭3 to about F6, with extra notes in the extreme high register called the altissimo. Saxophones come in several sizes, and each is pitched differently.",
+            "image": {
+              "src": "saxophone_range.png",
+              "alt": "The musical range of a saxophone.",
+              "caption": "The written range of an alto saxophone (B♭3 to F6)."
+            }
+          },
+          "clef": {
+            "text": "Saxophone parts are written in the treble clef, whatever the size of the instrument. Like the clarinet, it is a transposing instrument, so the sounding pitch differs from what is written.",
+            "image": {
+              "src": "treble_clef.webp",
+              "alt": "The staff notation of a saxophone (Treble Clef).",
+              "caption": "Treble Clef."
+            }
+          },
+          "seating": {
+            "text": "Woodwinds sit in the middle of the orchestra, behind the strings and in front of the brass and percussion. From the conductor's podium, the flutes are on the left of the woodwind rows, followed by the oboes, clarinets and bassoons toward the right. The saxophone is not a regular member of the orchestra. When a piece calls for one, the player is usually placed near the clarinets.",
+            "image": {
+              "src": "saxophone_seat.png",
+              "alt": "An image of the saxophone seating in an orchestra.",
+              "caption": "Seating of the saxophone in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Maurice Ravel",
+              "title": "Boléro",
+              "cover": "saxophone_song1.jpg",
+              "url": "https://open.spotify.com/search/Bol%C3%A9ro%20Maurice%20Ravel",
+              "alt": "Cover for Maurice Ravel, Boléro."
+            },
+            {
+              "composer": "Modest Mussorgsky (orch. Ravel)",
+              "title": "The Old Castle",
+              "cover": "saxophone_song2.jpg",
+              "url": "https://open.spotify.com/search/The%20Old%20Castle%20Modest%20Mussorgsky%20%28orch.%20Ravel%29",
+              "alt": "Cover for Modest Mussorgsky (orch. Ravel), The Old Castle."
+            },
+            {
+              "composer": "George Michael",
+              "title": "Careless Whisper",
+              "cover": "saxophone_song3.jpg",
+              "url": "https://open.spotify.com/search/Careless%20Whisper%20George%20Michael",
+              "alt": "Cover for George Michael, Careless Whisper."
+            },
+            {
+              "composer": "Gerry Rafferty",
+              "title": "Baker Street",
+              "cover": "saxophone_song4.jpg",
+              "url": "https://open.spotify.com/search/Baker%20Street%20Gerry%20Rafferty",
+              "alt": "Cover for Gerry Rafferty, Baker Street."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Saxophone",
+              "url": "https://en.wikipedia.org/wiki/Saxophone"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Saxophone",
+              "url": "https://en.wikipedia.org/wiki/Saxophone"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Saxophone",
+              "url": "https://en.wikipedia.org/wiki/Saxophone"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brass",
+      "name": "Brass",
+      "instruments": [
+        {
+          "id": "trombone",
+          "name": "Trombone",
+          "whatTitle": "What is a trombone?",
+          "seatTitle": "Where is the trombone seated in an orchestra?",
+          "image": {
+            "src": "trombone1.png",
+            "alt": "An image of a trombone.",
+            "caption": "A trombone."
+          },
+          "intro": "The trombone is a brass instrument that uses a slide instead of valves. The player buzzes their lips into a cup-shaped mouthpiece and moves the slide in and out to lengthen or shorten the tube, which changes the pitch. This lets the trombone glide smoothly between notes.",
+          "range": {
+            "text": "The tenor trombone covers about E2 to B♭5. Notes below this are possible on a trombone with an extra valve, and the highest notes are very demanding.",
+            "image": {
+              "src": "trombone_range.png",
+              "alt": "The musical range of a trombone.",
+              "caption": "The range of a tenor trombone on a keyboard (E2 to B♭5)."
+            }
+          },
+          "clef": {
+            "text": "Trombone music is mostly written in the bass clef. For high passages, composers sometimes use the tenor clef, and the alto clef is used for the alto trombone.",
+            "image": {
+              "src": "bass_clef.png",
+              "alt": "The staff notation of a trombone (Bass Clef).",
+              "caption": "Bass Clef."
+            }
+          },
+          "seating": {
+            "text": "The brass section sits at the back of the orchestra, behind the woodwinds. From the conductor's podium, the horns are in the center, with the trumpets to their right and the trombones and tuba at the far right. Trombones sit toward the back right, next to the tuba.",
+            "image": {
+              "src": "trombone_seat.png",
+              "alt": "An image of the trombone seating in an orchestra.",
+              "caption": "Seating of the trombone in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Wolfgang Amadeus Mozart",
+              "title": "Requiem, Tuba mirum",
+              "cover": "trombone_song1.jpg",
+              "url": "https://open.spotify.com/search/Requiem%2C%20Tuba%20mirum%20Wolfgang%20Amadeus%20Mozart",
+              "alt": "Cover for Wolfgang Amadeus Mozart, Requiem, Tuba mirum."
+            },
+            {
+              "composer": "Maurice Ravel",
+              "title": "Boléro",
+              "cover": "trombone_song2.jpg",
+              "url": "https://open.spotify.com/search/Bol%C3%A9ro%20Maurice%20Ravel",
+              "alt": "Cover for Maurice Ravel, Boléro."
+            },
+            {
+              "composer": "Richard Wagner",
+              "title": "Ride of the Valkyries",
+              "cover": "trombone_song3.jpg",
+              "url": "https://open.spotify.com/search/Ride%20of%20the%20Valkyries%20Richard%20Wagner",
+              "alt": "Cover for Richard Wagner, Ride of the Valkyries."
+            },
+            {
+              "composer": "Tommy Dorsey",
+              "title": "I'm Getting Sentimental Over You",
+              "cover": "trombone_song4.jpg",
+              "url": "https://open.spotify.com/search/I%27m%20Getting%20Sentimental%20Over%20You%20Tommy%20Dorsey",
+              "alt": "Cover for Tommy Dorsey, I'm Getting Sentimental Over You."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Trombone",
+              "url": "https://en.wikipedia.org/wiki/Trombone"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Trombone",
+              "url": "https://en.wikipedia.org/wiki/Trombone"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Trombone",
+              "url": "https://en.wikipedia.org/wiki/Trombone"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        },
+        {
+          "id": "tuba",
+          "name": "Tuba",
+          "whatTitle": "What is a tuba?",
+          "seatTitle": "Where is the tuba seated in an orchestra?",
+          "image": {
+            "src": "tuba1.png",
+            "alt": "An image of a tuba.",
+            "caption": "A tuba."
+          },
+          "intro": "The tuba is the largest and lowest-pitched brass instrument. The player buzzes their lips into a large cup mouthpiece, and valves send the air through extra lengths of tubing. Its wide, coiled tube gives a deep, round tone that anchors the whole brass section.",
+          "range": {
+            "text": "Orchestral tubas play very low, with a commonly cited range of about D1 to F4. Different tuba sizes, such as F, E♭ and BB♭, reach slightly different notes.",
+            "image": {
+              "src": "tuba_range.png",
+              "alt": "The musical range of a tuba.",
+              "caption": "The range of a tuba on a keyboard (D1 to F4)."
+            }
+          },
+          "clef": {
+            "text": "Tuba music is written in the bass clef, since almost all of its notes are far below middle C.",
+            "image": {
+              "src": "bass_clef.png",
+              "alt": "The staff notation of a tuba (Bass Clef).",
+              "caption": "Bass Clef."
+            }
+          },
+          "seating": {
+            "text": "The brass section sits at the back of the orchestra, behind the woodwinds. From the conductor's podium, the horns are in the center, with the trumpets to their right and the trombones and tuba at the far right. The tuba sits at the far back right, forming the bottom of the brass section.",
+            "image": {
+              "src": "tuba_seat.png",
+              "alt": "An image of the tuba seating in an orchestra.",
+              "caption": "Seating of the tuba in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Modest Mussorgsky (orch. Ravel)",
+              "title": "Bydło",
+              "cover": "tuba_song1.jpg",
+              "url": "https://open.spotify.com/search/Byd%C5%82o%20Modest%20Mussorgsky%20%28orch.%20Ravel%29",
+              "alt": "Cover for Modest Mussorgsky (orch. Ravel), Bydło."
+            },
+            {
+              "composer": "Ralph Vaughan Williams",
+              "title": "Tuba Concerto",
+              "cover": "tuba_song2.jpg",
+              "url": "https://open.spotify.com/search/Tuba%20Concerto%20Ralph%20Vaughan%20Williams",
+              "alt": "Cover for Ralph Vaughan Williams, Tuba Concerto."
+            },
+            {
+              "composer": "Hector Berlioz",
+              "title": "Symphonie fantastique",
+              "cover": "tuba_song3.jpg",
+              "url": "https://open.spotify.com/search/Symphonie%20fantastique%20Hector%20Berlioz",
+              "alt": "Cover for Hector Berlioz, Symphonie fantastique."
+            },
+            {
+              "composer": "John Williams",
+              "title": "Tuba Concerto",
+              "cover": "tuba_song4.jpg",
+              "url": "https://open.spotify.com/search/Tuba%20Concerto%20John%20Williams",
+              "alt": "Cover for John Williams, Tuba Concerto."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Tuba",
+              "url": "https://en.wikipedia.org/wiki/Tuba"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Tuba",
+              "url": "https://en.wikipedia.org/wiki/Tuba"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Tuba",
+              "url": "https://en.wikipedia.org/wiki/Tuba"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        },
+        {
+          "id": "cornet",
+          "name": "Cornet",
+          "whatTitle": "What is a cornet?",
+          "seatTitle": "Where is the cornet seated in an orchestra?",
+          "image": {
+            "src": "cornet1.png",
+            "alt": "An image of a cornet.",
+            "caption": "A cornet."
+          },
+          "intro": "The cornet is a brass instrument that looks like a short, compact trumpet. Its tubing is more conical than a trumpet's, which gives it a softer, mellower tone. It has three valves and is a mainstay of brass bands.",
+          "range": {
+            "text": "The common B♭ cornet has a written range from F♯3 up to about C6. It is a transposing instrument, so it sounds a whole step lower than written.",
+            "image": {
+              "src": "cornet_range.png",
+              "alt": "The musical range of a cornet.",
+              "caption": "The written range of a B♭ cornet (F♯3 to C6)."
+            }
+          },
+          "clef": {
+            "text": "Cornet music is written in the treble clef.",
+            "image": {
+              "src": "treble_clef.webp",
+              "alt": "The staff notation of a cornet (Treble Clef).",
+              "caption": "Treble Clef."
+            }
+          },
+          "seating": {
+            "text": "The brass section sits at the back of the orchestra, behind the woodwinds. From the conductor's podium, the horns are in the center, with the trumpets to their right and the trombones and tuba at the far right. Cornets are not part of the standard modern orchestra, since the trumpet usually takes their parts. When a score asks for them, they sit with the trumpets.",
+            "image": {
+              "src": "cornet_seat.png",
+              "alt": "An image of the cornet seating in an orchestra.",
+              "caption": "Seating of the cornet in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Igor Stravinsky",
+              "title": "Petrushka",
+              "cover": "cornet_song1.jpg",
+              "url": "https://open.spotify.com/album/6OTBRIp7pSLw35XWI0NjVQ?si=067b28e140ef4c7b",
+              "alt": "Cover for Igor Stravinsky, Petrushka."
+            },
+            {
+              "composer": "Pyotr Ilyich Tchaikovsky",
+              "title": "Capriccio Italien",
+              "cover": "cornet_song2.jpg",
+              "url": "https://open.spotify.com/album/4UDsQQ0Waghcet5gB8TncP?si=bAvqLL4STqO8HpviRvfDJw",
+              "alt": "Cover for Pyotr Ilyich Tchaikovsky, Capriccio Italien."
+            },
+            {
+              "composer": "Jean-Baptiste Arban",
+              "title": "The Carnival of Venice",
+              "cover": "cornet_song3.jpg",
+              "url": "https://open.spotify.com/track/1ZOJp4IhfKpBQp8DPhpeLn?si=72ead680559d4226",
+              "alt": "Cover for Jean-Baptiste Arban, The Carnival of Venice."
+            },
+            {
+              "composer": "Herman Bellstedt",
+              "title": "Napoli",
+              "cover": "cornet_song4.jpg",
+              "url": "https://open.spotify.com/track/61VCcSgLF85FsTbVfdn56U?si=f17c3b92c96b4ff0",
+              "alt": "Cover for Herman Bellstedt, Napoli."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Cornet",
+              "url": "https://en.wikipedia.org/wiki/Cornet"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Cornet",
+              "url": "https://en.wikipedia.org/wiki/Cornet"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Cornet",
+              "url": "https://en.wikipedia.org/wiki/Cornet"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        },
+        {
+          "id": "flugelhorn",
+          "name": "Flugelhorn",
+          "whatTitle": "What is a flugelhorn?",
+          "seatTitle": "Where is the flugelhorn seated in an orchestra?",
+          "image": {
+            "src": "flugelhorn1.png",
+            "alt": "An image of a flugelhorn.",
+            "caption": "A flugelhorn."
+          },
+          "intro": "The flugelhorn is a brass instrument that looks like a trumpet but has a wider, more conical bore. This gives it a dark, smooth and mellow tone. It is popular in jazz and brass bands for lyrical, singing melodies.",
+          "range": {
+            "text": "The B♭ flugelhorn has about the same range as a B♭ trumpet, from F♯3 up to roughly C6. The highest notes are harder to play than on a trumpet.",
+            "image": {
+              "src": "flugelhorn_range.png",
+              "alt": "The musical range of a flugelhorn.",
+              "caption": "The written range of a B♭ flugelhorn (F♯3 to C6)."
+            }
+          },
+          "clef": {
+            "text": "Flugelhorn music is written in the treble clef and is transposed, like the trumpet.",
+            "image": {
+              "src": "treble_clef.webp",
+              "alt": "The staff notation of a flugelhorn (Treble Clef).",
+              "caption": "Treble Clef."
+            }
+          },
+          "seating": {
+            "text": "The brass section sits at the back of the orchestra, behind the woodwinds. From the conductor's podium, the horns are in the center, with the trumpets to their right and the trombones and tuba at the far right. The flugelhorn is not a standard orchestral instrument. When a piece includes one, the player usually sits with the trumpets.",
+            "image": {
+              "src": "flugelhorn_seat.png",
+              "alt": "An image of the flugelhorn seating in an orchestra.",
+              "caption": "Seating of the flugelhorn in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Chuck Mangione",
+              "title": "Feels So Good",
+              "cover": "flugelhorn_song1.jpg",
+              "url": "https://open.spotify.com/search/Feels%20So%20Good%20Chuck%20Mangione",
+              "alt": "Cover for Chuck Mangione, Feels So Good."
+            },
+            {
+              "composer": "Miles Davis",
+              "title": "Sketches of Spain",
+              "cover": "flugelhorn_song2.jpg",
+              "url": "https://open.spotify.com/search/Sketches%20of%20Spain%20Miles%20Davis",
+              "alt": "Cover for Miles Davis, Sketches of Spain."
+            },
+            {
+              "composer": "Ralph Vaughan Williams",
+              "title": "Symphony No. 9",
+              "cover": "flugelhorn_song3.jpg",
+              "url": "https://open.spotify.com/search/Symphony%20No.%209%20Ralph%20Vaughan%20Williams",
+              "alt": "Cover for Ralph Vaughan Williams, Symphony No. 9."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Flugelhorn",
+              "url": "https://en.wikipedia.org/wiki/Flugelhorn"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Flugelhorn",
+              "url": "https://en.wikipedia.org/wiki/Flugelhorn"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Flugelhorn",
+              "url": "https://en.wikipedia.org/wiki/Flugelhorn"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "percussion",
+      "name": "Percussion",
+      "instruments": [
+        {
+          "id": "bass_drum",
+          "name": "Bass Drum",
+          "whatTitle": "What is a bass drum?",
+          "seatTitle": "Where is the bass drum seated in an orchestra?",
+          "image": {
+            "src": "bass_drum1.png",
+            "alt": "An image of a bass drum.",
+            "caption": "A bass drum."
+          },
+          "intro": "The bass drum is a large, two-headed drum and the lowest-sounding drum in the orchestra. A player strikes it with a large padded mallet, and the big air-filled shell makes a deep, rumbling boom. It can add thunder, tension or a heartbeat-like pulse.",
+          "range": {
+            "text": "The bass drum is an unpitched instrument, so it has no written range of notes. It makes a low sound of indefinite pitch, and players change the tone with the mallet, the strike position and the tension of the heads.",
+            "image": null
+          },
+          "clef": {
+            "text": "Because it has no pitch, the bass drum is written on a percussion clef, which is usually one line or a short staff. The position on the line shows which instrument plays, and the rhythm shows when.",
+            "image": {
+              "src": "percussion_clef.png",
+              "alt": "The staff notation of a bass drum (Percussion Clef).",
+              "caption": "Percussion Clef."
+            }
+          },
+          "seating": {
+            "text": "The percussion section is at the very back of the orchestra, behind the brass, often along the back or right side of the stage. Exact placement changes with the piece and the hall. The bass drum is usually placed at the back, toward the center or right.",
+            "image": {
+              "src": "bass_drum_seat.png",
+              "alt": "An image of the bass drum seating in an orchestra.",
+              "caption": "Seating of the bass drum in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Gustav Holst",
+              "title": "Mars, the Bringer of War",
+              "cover": "bass_drum_song1.jpg",
+              "url": "https://open.spotify.com/search/Mars%2C%20the%20Bringer%20of%20War%20Gustav%20Holst",
+              "alt": "Cover for Gustav Holst, Mars, the Bringer of War."
+            },
+            {
+              "composer": "Pyotr Ilyich Tchaikovsky",
+              "title": "1812 Overture",
+              "cover": "bass_drum_song2.jpg",
+              "url": "https://open.spotify.com/search/1812%20Overture%20Pyotr%20Ilyich%20Tchaikovsky",
+              "alt": "Cover for Pyotr Ilyich Tchaikovsky, 1812 Overture."
+            },
+            {
+              "composer": "Giuseppe Verdi",
+              "title": "Requiem, Dies irae",
+              "cover": "bass_drum_song3.jpg",
+              "url": "https://open.spotify.com/search/Requiem%2C%20Dies%20irae%20Giuseppe%20Verdi",
+              "alt": "Cover for Giuseppe Verdi, Requiem, Dies irae."
+            },
+            {
+              "composer": "Hector Berlioz",
+              "title": "March to the Scaffold",
+              "cover": "bass_drum_song4.jpg",
+              "url": "https://open.spotify.com/search/March%20to%20the%20Scaffold%20Hector%20Berlioz",
+              "alt": "Cover for Hector Berlioz, March to the Scaffold."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Bass Drum",
+              "url": "https://en.wikipedia.org/wiki/Bass_drum"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Bass Drum",
+              "url": "https://en.wikipedia.org/wiki/Bass_drum"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Bass Drum",
+              "url": "https://en.wikipedia.org/wiki/Bass_drum"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        },
+        {
+          "id": "triangle",
+          "name": "Triangle",
+          "whatTitle": "What is a triangle?",
+          "seatTitle": "Where is the triangle seated in an orchestra?",
+          "image": {
+            "src": "triangle1.png",
+            "alt": "An image of a triangle.",
+            "caption": "A triangle."
+          },
+          "intro": "The triangle is a small percussion instrument made from a steel rod bent into a triangle with one open corner. The player hangs it from a cord and hits it with a metal beater. It rings with a bright, shimmering sound that cuts through a loud orchestra.",
+          "range": {
+            "text": "The triangle has no specific pitch, so it has no written range. It makes a high, ringing sound, and players change its character with the size of the triangle, the beater and where they strike it.",
+            "image": null
+          },
+          "clef": {
+            "text": "The triangle is written on a percussion clef, usually a single line, because only the rhythm matters, not the pitch.",
+            "image": {
+              "src": "percussion_clef.png",
+              "alt": "The staff notation of a triangle (Percussion Clef).",
+              "caption": "Percussion Clef."
+            }
+          },
+          "seating": {
+            "text": "The percussion section is at the very back of the orchestra, behind the brass, often along the back or right side of the stage. Exact placement changes with the piece and the hall. The triangle player stands or sits with the other percussionists, and triangles are often hung from a stand so both hands are free.",
+            "image": {
+              "src": "triangle_seat.png",
+              "alt": "An image of the triangle seating in an orchestra.",
+              "caption": "Seating of the triangle in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Franz Liszt",
+              "title": "Piano Concerto No. 1",
+              "cover": "triangle_song1.jpg",
+              "url": "https://open.spotify.com/search/Piano%20Concerto%20No.%201%20Franz%20Liszt",
+              "alt": "Cover for Franz Liszt, Piano Concerto No. 1."
+            },
+            {
+              "composer": "Johannes Brahms",
+              "title": "Symphony No. 4",
+              "cover": "triangle_song2.jpg",
+              "url": "https://open.spotify.com/search/Symphony%20No.%204%20Johannes%20Brahms",
+              "alt": "Cover for Johannes Brahms, Symphony No. 4."
+            },
+            {
+              "composer": "Antonín Dvořák",
+              "title": "Symphony No. 9, From the New World",
+              "cover": "triangle_song3.jpg",
+              "url": "https://open.spotify.com/search/Symphony%20No.%209%2C%20From%20the%20New%20World%20Anton%C3%ADn%20Dvo%C5%99%C3%A1k",
+              "alt": "Cover for Antonín Dvořák, Symphony No. 9, From the New World."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Triangle",
+              "url": "https://en.wikipedia.org/wiki/Triangle_(musical_instrument)"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Triangle",
+              "url": "https://en.wikipedia.org/wiki/Triangle_(musical_instrument)"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Triangle",
+              "url": "https://en.wikipedia.org/wiki/Triangle_(musical_instrument)"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        },
+        {
+          "id": "xylophone",
+          "name": "Xylophone",
+          "whatTitle": "What is a xylophone?",
+          "seatTitle": "Where is the xylophone seated in an orchestra?",
+          "image": {
+            "src": "xylophone1.png",
+            "alt": "An image of a xylophone.",
+            "caption": "A xylophone."
+          },
+          "intro": "The xylophone is a pitched percussion instrument made of wooden bars laid out like a piano keyboard. The player strikes the bars with hard mallets, which makes a bright, dry, crisp tone. Each bar is cut to a different length, so each one has a different pitch.",
+          "range": {
+            "text": "A concert xylophone usually has about three and a half octaves. It is written from F4 to C8, but it sounds one octave higher than written.",
+            "image": {
+              "src": "xylophone_range.png",
+              "alt": "The musical range of a xylophone.",
+              "caption": "The written range of a xylophone (F4 to C8)."
+            }
+          },
+          "clef": {
+            "text": "Xylophone music is written in the treble clef, one octave lower than it sounds, so that the notes stay on the staff.",
+            "image": {
+              "src": "treble_clef.webp",
+              "alt": "The staff notation of a xylophone (Treble Clef).",
+              "caption": "Treble Clef."
+            }
+          },
+          "seating": {
+            "text": "The percussion section is at the very back of the orchestra, behind the brass, often along the back or right side of the stage. Exact placement changes with the piece and the hall. The xylophone sits with the other mallet percussion at the back of the orchestra.",
+            "image": {
+              "src": "xylophone_seat.png",
+              "alt": "An image of the xylophone seating in an orchestra.",
+              "caption": "Seating of the xylophone in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Camille Saint-Saëns",
+              "title": "Danse macabre",
+              "cover": "xylophone_song1.jpg",
+              "url": "https://open.spotify.com/search/Danse%20macabre%20Camille%20Saint-Sa%C3%ABns",
+              "alt": "Cover for Camille Saint-Saëns, Danse macabre."
+            },
+            {
+              "composer": "Camille Saint-Saëns",
+              "title": "Fossils, from Carnival of the Animals",
+              "cover": "xylophone_song2.jpg",
+              "url": "https://open.spotify.com/search/Fossils%2C%20from%20Carnival%20of%20the%20Animals%20Camille%20Saint-Sa%C3%ABns",
+              "alt": "Cover for Camille Saint-Saëns, Fossils, from Carnival of the Animals."
+            },
+            {
+              "composer": "Aram Khachaturian",
+              "title": "Sabre Dance",
+              "cover": "xylophone_song3.jpg",
+              "url": "https://open.spotify.com/search/Sabre%20Dance%20Aram%20Khachaturian",
+              "alt": "Cover for Aram Khachaturian, Sabre Dance."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Xylophone",
+              "url": "https://en.wikipedia.org/wiki/Xylophone"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Xylophone",
+              "url": "https://en.wikipedia.org/wiki/Xylophone"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Xylophone",
+              "url": "https://en.wikipedia.org/wiki/Xylophone"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        },
+        {
+          "id": "timpani",
+          "name": "Timpani",
+          "whatTitle": "What are timpani?",
+          "seatTitle": "Where are the timpani seated in an orchestra?",
+          "image": {
+            "src": "timpani1.png",
+            "alt": "An image of timpani.",
+            "caption": "Timpani."
+          },
+          "intro": "Timpani, also called kettledrums, are large copper bowls covered with a drumhead. Unlike most drums they can play specific pitches. A foot pedal changes the tension of the head, which raises or lowers the note, and the player strikes the head with felt-tipped sticks.",
+          "range": {
+            "text": "A standard set of four drums covers roughly D2 to C4. Each drum can only play a limited span of about a fifth, so the player retunes between and during pieces.",
+            "image": {
+              "src": "timpani_range.png",
+              "alt": "The musical range of timpani.",
+              "caption": "The approximate range of a set of timpani (D2 to C4)."
+            }
+          },
+          "clef": {
+            "text": "Timpani are written in the bass clef, since the notes are low. Composers usually write only the notes the drums are tuned to.",
+            "image": {
+              "src": "bass_clef.png",
+              "alt": "The staff notation of timpani (Bass Clef).",
+              "caption": "Bass Clef."
+            }
+          },
+          "seating": {
+            "text": "The percussion section is at the very back of the orchestra, behind the brass, often along the back or right side of the stage. Exact placement changes with the piece and the hall. The timpani sit at the back, usually in the center or to the right behind the brass, and the timpanist often stands or sits on a raised platform.",
+            "image": {
+              "src": "timpani_seat.png",
+              "alt": "An image of the timpani seating in an orchestra.",
+              "caption": "Seating of the timpani in an orchestra."
+            }
+          },
+          "pieces": [
+            {
+              "composer": "Richard Strauss",
+              "title": "Also sprach Zarathustra",
+              "cover": "timpani_song1.jpg",
+              "url": "https://open.spotify.com/search/Also%20sprach%20Zarathustra%20Richard%20Strauss",
+              "alt": "Cover for Richard Strauss, Also sprach Zarathustra."
+            },
+            {
+              "composer": "Ludwig van Beethoven",
+              "title": "Symphony No. 9, Scherzo",
+              "cover": "timpani_song2.jpg",
+              "url": "https://open.spotify.com/search/Symphony%20No.%209%2C%20Scherzo%20Ludwig%20van%20Beethoven",
+              "alt": "Cover for Ludwig van Beethoven, Symphony No. 9, Scherzo."
+            },
+            {
+              "composer": "Ludwig van Beethoven",
+              "title": "Violin Concerto",
+              "cover": "timpani_song3.jpg",
+              "url": "https://open.spotify.com/search/Violin%20Concerto%20Ludwig%20van%20Beethoven",
+              "alt": "Cover for Ludwig van Beethoven, Violin Concerto."
+            },
+            {
+              "composer": "Joseph Haydn",
+              "title": "Symphony No. 103, Drumroll",
+              "cover": "timpani_song4.jpg",
+              "url": "https://open.spotify.com/search/Symphony%20No.%20103%2C%20Drumroll%20Joseph%20Haydn",
+              "alt": "Cover for Joseph Haydn, Symphony No. 103, Drumroll."
+            }
+          ],
+          "references": [
+            {
+              "source": "Wikipedia",
+              "title": "Timpani",
+              "url": "https://en.wikipedia.org/wiki/Timpani"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Timpani",
+              "url": "https://en.wikipedia.org/wiki/Timpani"
+            },
+            {
+              "source": "Wikipedia",
+              "title": "Timpani",
+              "url": "https://en.wikipedia.org/wiki/Timpani"
+            },
+            {
+              "source": "Rockford Symphony Orchestra",
+              "title": "Are all orchestras arranged on stage the same way?",
+              "url": "https://www.rockfordsymphony.com/faqs/are-all-orchestras-arranged-the-same"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
