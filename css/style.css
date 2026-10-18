@@ -1,0 +1,580 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.login {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.login_form {
+    width: 100%;
+    max-width: 400px;
+    padding: 32px;
+    background: white;
+    color: black;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.login_form h1 {
+    margin: 0 0 24px;
+    text-align: center;
+}
+
+.login_box {
+    margin-bottom: 20px;
+}
+
+.login_box label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+}
+
+.login_box input {
+    width: 100%;
+    padding: 10px 12px;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+.login_box input:focus{
+    outline: none;
+    border-color: goldenrod;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.35);
+}
+
+.login_button input {
+    width: 100%;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 1.05rem;
+    color: goldenrod;
+    background: gray;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login_button input:hover{
+    background: #000;
+}
+
+main {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)) , url(../img/main_bck.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.site_header{
+    position: relative;
+    text-align: center;
+    padding: 32px 16px;
+    border-bottom: 2px solid darkgray;
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)) , url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.site_nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 16px;
+}
+.site_nav a {
+    padding: 8px 20px;
+    color: white;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    transition: background 0.2s;
+}
+
+.site_nav a:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.site_nav a[aria-current="page"] {
+    background: goldenrod;
+    color: black;
+    border-color: goldenrod;
+}
+
+.site_nav a:focus-visible {
+    outline: 3px solid goldenrod;
+    outline-offset: 2px;
+}
+
+.back_button{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    padding: 6px 14px;
+    color: white;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px;
+    font-size: 0.9rem;
+}
+.site_header h1 {
+    margin: 0 0 8px;
+}
+
+.site_header p {
+    margin: 0;
+}
+
+.families {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding: 24px;
+}
+.family{
+    flex: 0 1 200px;                 
+    padding: 16px;
+    border: 1px solid darkgray;
+    border-radius: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+/* .family ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} */
+
+.strings {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/strings_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.woodwinds {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/woodwinds_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.brass {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/brass_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.percussion {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/percussion_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.violin {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/violin_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.harp {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/harp_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.guitar {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/guitar_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.cello {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/cello_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.flute {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/flute_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.clarinet {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/clarinet_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.saxophone {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/sax_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.oboe {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/oboe_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cornet {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/cornet_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.flugelhorn {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/flugelhorn_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.trombone {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/trombone_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.tuba {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/tuba_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bass_drum {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/bassdrum_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.timpani{
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/timpani_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.triangle {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/triangle_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.xylophone {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/xylophone_bck.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cards {
+    flex: 1;
+    padding: 24px;
+}
+.card{
+    background: white;
+    color: black;
+    max-width: 1500px;
+    margin: 24px auto;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    display: flow-root;
+}
+
+.img_box {
+    float: right;
+    width: 600px;
+    max-width: 100%;
+    margin: 40px 0 12px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.clef_box{
+    width: 180px;
+    gap: 4px;
+}
+
+.clef_pair_img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.img_container {
+    float: right;
+    margin: 0 0 12px 24px;
+}
+.instrument_img{
+    display: block;
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.range_img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.clef_img {
+    display: block;
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+}
+.seating_img{
+    display: block;
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.img_container figcaption{
+    margin-top: 6px;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: black;
+    text-align: center;
+}
+.songs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.song {
+    flex: 0 1 200px;
+    margin: 0;
+    text-align: center;
+}
+.song a{
+    display: block;
+}
+
+.song_img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+.piece_img:hover,
+.piece a:focus-visible .piece_img {
+    transform: scale(1.04);
+}
+.piece figcaption {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+.contact{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.contact_form {
+    width: 100%;
+    max-width: 560px;
+    padding: 32px;
+    background: white;
+    color: black;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+.contact_form h2 {
+    margin: 0 0 8px;
+    text-align: center;
+}
+
+.form_intro {
+    margin: 0 0 24px;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.form_field {
+    margin: 0 0 20px;
+    padding: 0;
+    border: none;
+}
+
+.form_field label,
+.form_field legend{
+    display: block;
+    margin-bottom: 6px;
+    padding: 0;
+    font-size: 0.9rem;
+}
+.form_field input[type="text"],
+.form_field input[type="email"],
+.form_field textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+.form_field textarea {
+    resize: vertical;
+}
+
+.form_field input:focus,
+.form_field textarea:focus {
+    outline: none;
+    border-color: goldenrod;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.35);
+}
+
+.choice {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+    font-size: 1rem;
+}
+
+.form_button input{
+    width: 100%;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 1.05rem;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.card li{ 
+    margin-bottom: 12px; 
+}
+.form_button input:hover {
+    background: #000;
+}
+footer {
+    padding: 4px 4px;
+    font-size: 0.7rem;
+    text-align: right;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background: rgb(0, 0, 0); */
+}
+
+#app { 
+    flex: 1; display: flex; flex-direction: column; 
+}
+#prompt:focus { 
+    outline: none; 
+}
+
+button.family { 
+    font: inherit; cursor: pointer; min-height: 88px; transition: transform 0.2s; 
+}
+.family_name { 
+    font-size: 1.5rem; font-weight: bold; 
+}
+button.family:active { 
+    transform: scale(0.97); 
+} 
+button.family:focus-visible { 
+    outline: 3px solid goldenrod; outline-offset: 3px; 
+}
+
+@media (hover: hover) {
+    button.family:hover { transform: scale(1.03); }
+    .song a:hover .song_img { transform: scale(1.04); }
+}
+.song a:active .song_img,
+.song a:focus-visible .song_img { 
+    transform: scale(1.04); 
+}
+.song figcaption { 
+    margin-top: 8px; font-size: 0.85rem; line-height: 1.4; 
+}
+
+button.back_button { 
+    font: inherit; font-size: 1rem; min-height: 44px; min-width: 44px; border: 1px solid white; cursor: pointer; 
+}
+.site_nav a{ 
+    display: inline-flex; align-items: center; min-height: 44px; }
+
+
+.next_steps { 
+    display: flex; flex-wrap: wrap; gap: 12px; 
+}
+.action_button {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-height: 44px; padding: 10px 20px;
+    font: inherit; color: goldenrod; background: #333;
+    border: none; border-radius: 6px; text-decoration: none; cursor: pointer;
+}
+.action_button:hover, .action_button:active { 
+    background: #000; 
+}
+.action_button:focus-visible { 
+    outline: 3px solid goldenrod; outline-offset: 2px; 
+}
+
+.status_message{ 
+    margin: auto; padding: 24px; text-align: center; 
+}
+
+.visually_hidden {
+    position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+@media (max-width: 700px) {
+    .site_header { 
+        padding-top: 72px; 
+    }
+}
+
+@media (max-width: 700px) {
+    .families {
+        flex-direction: column;
+    }
+}
+@media (max-width: 800px){
+    .card > .img_container {
+        float: none;
+        width: fit-content;
+        max-width: 100%;
+        margin: 0 auto 16px;
+    }
+    .img_box {
+        float: none;
+        width: 100%;
+        margin: 0 0 16px;
+    }
+    .instrument_img,
+    .seating_img,
+    .range_img {
+        max-width: 100%;
+        height: auto;
+    }
+}
